@@ -7,6 +7,7 @@
 //
 
 #import "FBAppDelegate.h"
+#import "SSZipArchive.h"
 
 @implementation FBAppDelegate
 
@@ -16,10 +17,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+   /* self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    [self.window makeKeyAndVisible];*/
+#ifndef zipdownload
+   /* [self unzipFile:@"Gaviskon"];
+    [self unzipFile:@"Nurofen"];
+    [self unzipFile:@"GaviskonMini"];
+    [self unzipFile:@"Gavisconå†©-®Ó≠Ï2014"];
+    [self unzipFile:@"Nurofen_mini"];*/
+
+#endif
+    if (isIOS6) {
+        [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    }
+    
+    //NSString *destinationPath = @"path_to_the_folder_where_you_want_it_unzipped";
+    
     return YES;
 }
 

@@ -1,0 +1,14 @@
+/* 
+  Strings.strings
+  CRM-база
+
+  Created by Adnan Aftab on 5/18/14.
+  Copyright (c) 2014 coderxperts. All rights reserved.
+*/
+Detailing = "Детейлинг";
+Library = "Информация по брендам";
+Tools = "Инструменты продаж";
+Educational = "Тренинги";
+MyPage = "Личный кабинет";
+Questionnaire="Анкетирование";
+LiveChat = "Обратная связь";
